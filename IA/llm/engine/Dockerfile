@@ -39,4 +39,4 @@ RUN python3 setup.py develop
 
 # Entrypoint API OpenAI-like
 ENTRYPOINT ["python", "-m", "vllm.entrypoints.openai.api_server"]
-CMD ["--host", "0.0.0.0", "--port", "8000"]"]
+CMD ["--host", "0.0.0.0", "--port", "8000"]
