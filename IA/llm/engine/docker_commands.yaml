@@ -1,0 +1,26 @@
+docker run -it --rm \
+    --device /dev/kfd \
+    --device /dev/dri \
+    --group-add video \
+    --group-add render \
+    -p 8000:8000 \
+    -v /home/m8legall/Projects/fishhub/IA/models/llm:/app/models \
+    vllm-chat-engine:latest \
+    --model /app/models/Llama/Llama-3.1-8B-Instruct \
+    --max_model_len 12228 \
+    --gpu_memory_utilization 0.95
+
+
+docker run -it --rm \
+    --device /dev/kfd \
+    --device /dev/dri \
+    --group-add video \
+    --group-add render \
+    -p 8000:8000 \
+    -e PYTORCH_ALLOC_CONF=expandable_segments:True \
+    -v /home/m8legall/Projects/fishhub/IA/models/llm:/app/models \
+    vllm-chat-engine:latest \
+    --model /app/models/Deepseek/DeepSeek-R1-Distill-Qwen-32B-AWQ \
+    --max_model_len 8192 \
+    --gpu_memory_utilization 0.93
+# --enforce-eager
