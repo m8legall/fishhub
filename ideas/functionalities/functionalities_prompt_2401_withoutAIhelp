@@ -1,0 +1,10 @@
+Pour mon projet, j'ai de nouvelles idées de fonctionnalités : 
+**Réseau social communautaire**
+Les utilisateurs pourraient partager leur position (cela requiert une autorisation de leur part, de cookies...etc) avec soit leurs amis, les amis de leurs amis, tout le monde. Ils pourraient également décider de partager leur identité FishHub, ou simplement partager le fait qu'il y a quelqu'un à tel endroit (comme SnapMap en version améliorée).
+-> Cela permettrait aux autres utilisateurs de savoir combien il y a de personnages sur un spot donné.
+Ce réseau social communautaires permettraient également de partager leurs prises, de donner des avis sur des spots (avec des différentes notations telles que la facilité pour pécher, selon que c'est rocheux, peu de profondeur) par rapport aux heures de pêche de l'utilisateur.
+-> En entrecroisant ces informations, l'application permettrait de donner les "chances" de pêcher telle ou telle espèce de poisson en ce lieu, à ces horaires, en ces conditions.
+--> L'utilisation de données météorologiques, de marées (coeff...etc) est nécessaire.
+-> Afin de fiabiliser ces informations, il faudra que l'utilisateur ait effectivement été en ce lieu (vérifications nécessaires de sa position) et que les heures pour lesquelles il était là soient également partagées.
+Ces informations entrecroisées sont primordiales et suscitent un grand intérêt pour cette plateforme de pêche qu'est FishHub.
+

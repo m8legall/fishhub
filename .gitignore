@@ -2,5 +2,5 @@
 .venv
 .vscode/
 __pycache__/
-IA/models/llm/*/*/
-IA/models/vision/*/*/
+backend_ia/llm/models/*/
+backend_ia/vision/models/*/
