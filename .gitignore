@@ -4,3 +4,4 @@
 __pycache__/
 backend_ia/llm/models/*/
 backend_ia/vision/models/*/
+backend_social/node_modules/
